@@ -3,6 +3,8 @@ This project performs various audio signal processing tasks, including spectrum 
 
 📁 Project Structure
 bash
+Copy
+Edit
 main/
 ├── 1_audio_spectrum/
 │   ├── spectrum_code.m            # MATLAB code for generating audio spectrum
@@ -45,6 +47,8 @@ MATLAB (for spectrum analysis)
 Install the required Python libraries using:
 
 bash
+Copy
+Edit
 pip install numpy scipy matplotlib librosa pydub
 Ensure that MATLAB is installed and added to your system path if running the .m file.
 
@@ -56,12 +60,14 @@ Audio Spectrum Analysis: Open spectrum_code.m in MATLAB and run it.
 Audio Compression:
 
 bash
-
+Copy
+Edit
 python 2_audio_compression/mfcc.py
 Quality Comparison:
 
 bash
-
+Copy
+Edit
 python 3_compare_quality/compare.py
 python 3_compare_quality/mp3_convert.py
 📈 Output
